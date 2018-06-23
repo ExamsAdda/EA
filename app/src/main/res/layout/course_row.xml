@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="55dp"
+	android:background="@drawable/list_selector"
+	android:orientation="horizontal"
+	android:padding="5dip">
+
+
+	<TextView
+		android:id="@+id/courseNameRegionalTV"
+		android:layout_width="240dp"
+		android:layout_height="20dp"
+		android:layout_alignParentBottom="true"
+		android:layout_alignStart="@+id/courseNameEnglishTV"
+		android:text="కోర్స్ " />
+
+	<TextView
+		android:id="@+id/courseNameEnglishTV"
+		android:layout_width="240dp"
+		android:layout_height="20dp"
+		android:layout_alignParentStart="true"
+		android:layout_alignParentTop="true"
+		android:layout_marginStart="60dp"
+		android:text="Course" />
+
+	<TextView
+		android:id="@+id/numberOfPracticePapersCountTV"
+		android:layout_width="48dp"
+		android:layout_height="wrap_content"
+		android:layout_alignParentEnd="true"
+		android:layout_centerVertical="true"
+		android:layout_marginEnd="13dp"
+		android:text="10" />
+
+	<TextView
+		android:id="@+id/courseSerialNumberTV"
+		android:layout_width="35dp"
+		android:layout_height="37dp"
+		android:layout_alignParentStart="true"
+		android:layout_centerVertical="true"
+		android:layout_marginStart="13dp"
+		android:text="1"
+		android:textSize="24sp" />
+</RelativeLayout>
